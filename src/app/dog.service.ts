@@ -14,4 +14,7 @@ export class DogService {
   getRandomDog(): Observable<Dog>{
     return this.http.get<Dog>("https://dog.ceo/api/breeds/image/random");
   }
+
+
+  
 }
